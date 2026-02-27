@@ -1,7 +1,5 @@
 pipeline {
-  agent {
-    docker { image 'node:20' }
-  }
+  agent { label 'nodejs' }
 
   options {
     timestamps()
