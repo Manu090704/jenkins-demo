@@ -8,5 +8,4 @@ const rest = (a, b) => {
 }
 
 
-module.exports = sum;
-module.exports = rest;
+module.exports = {sum, rest};
