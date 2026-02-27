@@ -1,9 +1,6 @@
 pipeline {
-  agent { label 'nodejs' }
-
-  options {
-    timestamps()
-  }
+  agent any
+  options { timestamps()}
 
   stages {
     stage('Install') {
